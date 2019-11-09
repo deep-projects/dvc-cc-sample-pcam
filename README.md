@@ -12,6 +12,10 @@ This is a sample project that demonstrates the usage of DVC-CC. To find out more
 8. commit and push to git
 9. run experiments with "dvc-cc run"
 
+Here are two youtube videos that show all the steps that were done to create this repository.
+- https://www.youtube.com/watch?v=HYFU7M8XSN0&feature=youtu.be
+- https://www.youtube.com/watch?v=oV95aduSVtU&feature=youtu.be
+
 # 2. Use this repository
 
 What you can do with this git repository depends on your rights.
