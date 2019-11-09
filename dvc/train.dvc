@@ -1,26 +1,29 @@
 cmd: python source/train.py --learning-rate 0.04936777408792682 --batch-size 128 --num-of-epochs
-  200 --activation-function tanh --kernel-width
-  4 --average-kernels 66 --num-of-conv-layers
-  2 --kernel-increasing-factor 1.4385984644561538
-  --maxpool-after-n-layer 3 --dropout-factor-after-conv
+  200 --activation-function tanh --kernel-width 4 --average-kernels 66 --num-of-conv-layers
+  2 --kernel-increasing-factor 1.4385984644561538 --maxpool-after-n-layer 3 --dropout-factor-after-conv
   0.14123257817153628 --dropout-factor-after-maxp 0.01
 wdir: ..
 deps:
 - path: source/train.py
+  md5: 8b5a01807cb161e3f74d8174105cce70
 - path: data
+  md5: 360c0660b8f0c5a1c8757e0a7f2bb5c3.dir
 outs:
 - path: tensorboard
   cache: true
   metric: false
   persist: false
+  md5: 491869053b0813fc052a212d8b4a6bb0.dir
 - path: tf_model.h5
   cache: true
   metric: false
   persist: false
+  md5: f0bd40d46979f2f01bc3b3d43826327d
 - path: outputs/all-history.json
   cache: true
   metric: true
   persist: false
+  md5: edb4d54d1fb947974c6d0e5fe12d2c5d
 - path: outputs/history-summary.json
   cache: true
   metric: true
@@ -28,3 +31,5 @@ outs:
 
 
 
+  md5: 88f290796d3a043e80c0def1c0a9871b
+md5: 91a1675ad3983f95928a0e36e142d2ed
