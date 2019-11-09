@@ -1,0 +1,10 @@
+# sshfs data folder
+data
+
+# output from jupyter notebook
+tensorboard
+tf_model.h5
+
+# other
+*.idea
+*.ipynb_checkpoints
